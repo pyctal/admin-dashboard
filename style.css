@@ -264,6 +264,8 @@ h2 {
 .project-card {
   display: flex;
   padding: 16px;
+
+  border-left: 8px solid #ebd5ab;
 }
 
 .project-card-content {
