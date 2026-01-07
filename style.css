@@ -10,7 +10,7 @@ body {
   grid-template-areas:
     "sidebar header"
     "sidebar main";
-  gap: 8px;
+  gap: 16px;
   min-height: 100vh;
   padding: 8px;
 
@@ -34,6 +34,7 @@ svg {
 
   background-color: #8bae66;
   border-radius: 8px;
+  box-shadow: 0px 0px 5px;
 }
 
 .nav-link {
@@ -104,7 +105,8 @@ svg {
   padding: 16px;
 
   background-color: #ebd5ab;
-  border-radius: 0 16px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px;
 }
 
 .search-container {
@@ -228,7 +230,6 @@ h1 {
     "projects  announcements"
     "projects  trending";
   gap: 16px;
-  padding: 8px 0 0 8px;
 }
 
 .content-section {
