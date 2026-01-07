@@ -260,8 +260,12 @@ h2 {
 }
 
 .project-card {
-  overflow: auto;
+  display: flex;
   padding: 16px;
+}
+
+.project-card-content {
+  overflow: auto;
 }
 
 .project-title {
